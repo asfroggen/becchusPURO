@@ -266,3 +266,49 @@ nav ul{
     justify-content: center;
     align-items: center;
 }
+
+/* Celulares en vertical */
+@media (max-width: 480px) { 
+    header{
+        padding-left: 15px;
+        padding-right: 15px;
+        background-color: #FFF;
+        z-index: 1;
+        height: 60px;
+    }
+    .header_logo{
+        display: none;
+    }
+    .header_search{
+        width: 100%;
+    }
+    nav ul{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .img_item{
+        margin: auto 8px auto 8px;
+    }
+    .home_slides{
+        padding-top: 40px;
+    }
+    .header_container{
+        height: 100%;
+    }
+    .menu_slide h1 {
+        margin-top: 60px;
+    }
+    .menu_slide{
+        height: 100%;
+    }
+    .menu_container{
+        flex-wrap: wrap;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .item{
+        width: 100%;
+    }
+    
+ }
