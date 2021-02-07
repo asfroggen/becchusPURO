@@ -338,5 +338,14 @@ nav ul{
         transform: translateY(20px);
         transition: transform 0.25s;
     }
+    .footer_help_container{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .footer_help_column{
+        align-items: center;
+        margin-bottom: 16px;
+    }
     
  }
